@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@1,700&display=swap');
+
+body {
+  --type-first: Helvetica, Arial, sans-serif;
+  --type-second: 'Spectral', Georgia;
+  font-family: var(--type-second);
+}
+
+table,
+input,
+label {
+  font-size: 1.2rem;
+  font-family: var(--type-first);
+  margin-bottom: 0.5rem;
+}
+
+td {
+  padding: 0.3rem;
+}
+
+th {
+  padding-right: 1rem;
+  text-align: left;
+  font-family: var(--type-second);
+}
+
+tr:nth-child(even) {
+  background: #eee;
+}
+
+input[type='number'] {
+  display: block;
+}
